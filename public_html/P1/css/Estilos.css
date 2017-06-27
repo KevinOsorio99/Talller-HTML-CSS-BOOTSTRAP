@@ -1,0 +1,53 @@
+body{
+    background: white;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 100%;
+    border: solid #333;
+}
+
+#title{
+    font-size: 30px;
+    text-align: center;
+}
+
+#informacion{
+    width: 100%;
+    background: aqua;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+.cajon1{
+    border: 2px solid #333;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+@media (min-width: 428px){
+    title{
+        width: 100%;
+    }
+}
+
+@media (min-width: 780px){
+    .contenedor{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px){
+    .cajon1{
+        width: 100%;
+    }
+}
