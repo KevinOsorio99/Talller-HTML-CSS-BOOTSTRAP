@@ -15,7 +15,7 @@ img{
     text-align: center;
 }
 
-#information{
+#informacion{
     width: 100%;
     background: aqua;
     color: black;
@@ -23,11 +23,11 @@ img{
     font-size: 30px;
     border-radius: 20px;
 }
-.container {
+.contenedor {
     display: flex;
     justify-content: space-around;
 }
-.drawer1{
+.cajon1{
     border: 2px solid #333;
     margin-bottom: 10px;
     text-align: center;
@@ -41,13 +41,13 @@ img{
 }
 
 @media (min-width: 780px){
-    .container{
+    .contenedor{
         width: 100%;
     }
 }
 
 @media (min-width: 1024px){
-    .drawer1{
+    .cajon1{
         width: 100%;
     }
 }

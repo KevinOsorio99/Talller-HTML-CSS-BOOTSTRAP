@@ -16,16 +16,16 @@ header{
     z-index: 100;
 }
 
-.container{
+.contenedor{
     width: 98%;
     margin: auto;  
 }
 
 h1{
     float: left;
-}
+}h1
 
-header .container{
+header .contenedor{
     display: table;
 }
 
@@ -34,8 +34,11 @@ section{
     margin-bottom: 25px;
 }
 
+#Bienvenidos{
+    text-align: center;
+}
 
-footer .container{
+footer .contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -46,12 +49,12 @@ footer .container{
     font-size: 20px;    
 }
 
-.social{
+.sociales{
     width: 100%;
     text-align: center;
     font-size: 28px;
 }
 
-.social a{
+.sociales a{
     text-decoration: none;
 }
