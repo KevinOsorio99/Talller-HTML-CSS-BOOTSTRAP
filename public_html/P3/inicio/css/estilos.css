@@ -16,16 +16,16 @@ header{
     z-index: 100;
 }
 
-.contenedor{
+.container{
     width: 98%;
     margin: auto;  
 }
 
 h1{
     float: left;
-}h1
+}
 
-header .contenedor{
+header .container{
     display: table;
 }
 
@@ -34,19 +34,19 @@ section{
     margin-bottom: 25px;
 }
 
-#Bienvenidos{
+#welcome{
     text-align: center;
     width: 80%;
     margin: 0 auto;
 }
 
-#Vision{
+#view{
     text-align: center;
     width: 80%;
     margin: 0 auto;
 }
 
-footer .contenedor{
+footer .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -57,12 +57,12 @@ footer .contenedor{
     font-size: 20px;    
 }
 
-.sociales{
+.social{
     width: 100%;
     text-align: center;
     font-size: 28px;
 }
 
-.sociales a{
+.social a{
     text-decoration: none;
 }

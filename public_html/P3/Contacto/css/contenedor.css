@@ -1,9 +1,9 @@
-.contenedor {
+.container {
     display: flex;
     justify-content: space-around;
     width: 80%;
 }
-.cajon1{
+.drawer1{
     border: 2px solid #333;
     margin-bottom: 20px;
     text-align: center;
@@ -11,11 +11,11 @@
 }
 
 @media (min-width: 1024px){
-    .contenedor{
+    .container{
         flex-wrap: wrap;
     }
     
-    .cajon1{
+    .drawer1{
         flex-wrap: wrap-reverse;
     }
 

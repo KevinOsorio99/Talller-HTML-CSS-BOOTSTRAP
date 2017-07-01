@@ -7,7 +7,7 @@
     color: white;
     padding: 20px 0;
 }
-.jumbotron .titulo-blog{
+.jumbotron .title-blog{
     font-size: 50px;
 }
 
@@ -36,7 +36,7 @@
     width: 100%;
 }
 
-.post .contenedor-button{
+.post .container-button{
     width: 100%;
 }
 @media screen and (max-width: 768px){
